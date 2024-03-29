@@ -2,7 +2,8 @@ const quote = document.getElementById("quote");
 const author = document.getElementById("author");
 const bookTitle = document.getElementById("book-title");
 const button = document.getElementById("button");
-const URL = "http://localhost:3030";
+// const URL = "http://localhost:3030";
+const URL = "https://quotes-generator-golang.onrender.com"
 
 button.addEventListener("click", async () => {
   try {
